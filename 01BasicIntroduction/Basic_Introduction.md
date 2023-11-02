@@ -185,8 +185,7 @@ console.log(5 + 6);
 
 # Variables and Constants in JavaScript
 
-=>In programming, a variable is a container (storage area) to hold data.
-
+==>In programming, a variable is a container (storage area) to hold data.\
 ==>JavaScript Variables can be declared in 4 ways:
 
 1. Automatically
@@ -195,6 +194,25 @@ console.log(5 + 6);
 4. Using const
 
 =>In javascript, there are three keywords that are used to declare variables: `var`, `let` and `const`. The `var` keyword was used to declare variables in javascript before the `let` and `const` keywords were introduced. The `let` and `const` keywords were introduced in ES6 (ECMAScript 6). ES6 is the latest version of javascript. It was released in 2015. ES6 introduced a lot of new features to javascript. We will learn about some of them in this course.
+
+# Automatically
+
+==>In this first example, x, y, and z are undeclared variables.\
+==>They are automatically declared when first used:
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+x = 5;
+y = 6;
+z = x + y;
+document.write("Sum =",z);
+</script>
+</body>
+</html>
+```
 
 # var
 
@@ -255,6 +273,70 @@ console.log(name); //output:TypeError: Assignment to constant variable.
 const name="KC" ;  // can not redeclare block-scoped variable 'name'
 ```
 
+# Constant Objects and Arrays
+==>The keyword const is a little misleading.
+
+==>It does not define a constant value. It defines a constant reference to a value.
+
+==>Because of this you can NOT:
+
+* Reassign a constant value
+* Reassign a constant array
+* Reassign a constant object
+
+==>But you CAN:
+
+* Change the elements of constant array
+* Change the properties of constant object
+
+# Constant Arrays
+==>We can not reassign the constant array.
+
+Here's an example:
+
+```js
+const array = ["Banana", "Orange", "Papaya", "Apple", "Pineapple"];
+console.log(array);
+
+//array=["Apple","Banana","Orange"]  //TypeError: Assignment to constant variable
+```
+
+==>But we can change the elements of a constant array.
+
+Here's an Example
+
+```js
+const Fruit=["Banana","Orange","Papaya","Apple","Pineapple"]
+  console.log(Fruit)
+  Fruit[0]="Watermelon"
+  console.log(Fruit)
+```
+
+# Constant Objects
+==> We can NOT reassign the Constant object:
+
+```js
+const personalInfo = {
+  name: "Anjan KC",
+  address: "Rukum West",
+  isMarried: true,
+};
+console.log(personalInfo);
+//personalInfo={name:"Rita KC",address:"Dang",isMarried:true} // Error: We can NOT reassign the Constant object
+```
+
+==> But we can change the properties of a constant object.
+
+```js
+const personalInfo = {
+  name: "Anjan KC",
+  address: "Rukum West",
+  isMarried: true,
+};
+console.log(personalInfo);
+personalInfo.name="Rita KC"
+ console.log(personalInfo)
+```
 
 # Differences
 
