@@ -1,6 +1,5 @@
-let expr = 5;
 let day;
-switch (expr) {
+switch (new Date().getDay()) {
   case 0:
     day = "Sunday";
     break;

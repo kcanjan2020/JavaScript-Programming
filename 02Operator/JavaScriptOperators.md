@@ -329,4 +329,3 @@ console.log(typeof arr); //Array
 let obj = { name: "Anjan", age: 25 };
 console.log(typeof obj);
 ```
-
