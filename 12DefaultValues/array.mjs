@@ -1,7 +1,6 @@
-let [a, b, c = 9, d] = [1, 2, 3, 4];
+let [a, b, c = 6, d = 5] = [1, 2, 3]; //give default value from the last elements of the array
 console.log(a);
-console.log(b);
-console.log(c);
+console.log(b), console.log(c);
 console.log(d);
 
 //Default value
