@@ -1,6 +1,6 @@
-//How to create error
-let errorFun = () => {
-  let error = new Error("This is my first error");
+let errorFunction = () => {
+  let error = new Error("Thi is my first Error");
   throw error;
 };
-errorFun();
+
+errorFunction();
