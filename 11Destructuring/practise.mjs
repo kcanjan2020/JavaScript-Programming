@@ -1,18 +1,29 @@
-let fun = (a, b, c, d, e) => {
+function fun(a, b, c, d, e) {
+  console.log(a);
+  console.log(b);
   console.log(c);
   console.log(d);
   console.log(e);
-};
-
-fun(1, 2, true, ["Anjan", "Rita"], { name: "Hari", age: 45 });
+}
+fun(1, 2, true, ["Anjan", "Rita"], {
+  name: "Hari",
+  Address: "Kathmandu",
+  Age: "24",
+});
 
 //Destructure
-let fun2 = (a, b, c, [name1, name2], { name, age }) => {
+let fun1 = (a, b, c, [name1, name2], { name, Address, Age }) => {
+  console.log(a);
+  console.log(b);
   console.log(c);
   console.log(name1);
   console.log(name2);
   console.log(name);
-  console.log(age);
+  console.log(Address);
+  console.log(Age);
 };
-
-fun2(1, 2, true, ["Anjan", "Rita"], { name: "Hari", age: 45 });
+fun1(1, 2, true, ["Anjan", "Rita"], {
+  name: "Hari",
+  Address: "Kathmandu",
+  Age: "24",
+});
