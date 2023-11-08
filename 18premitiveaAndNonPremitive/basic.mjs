@@ -1,4 +1,6 @@
 //Primitive ==> number,BigInt,string,boolean,null,undefined,symbol:=> is not share memory location when we write let,var,const in code then it create memory location.
+//=>Primitive Data Type used stack memory
+//=>Non-Primitive Data Type used Heap Memory
 
 //Non-primitive==>Array,Object,Set:=>It share a memory location if new variable is the copy of already defined variable.
 
@@ -21,7 +23,7 @@ arr2.push(3);
 console.log(arr1); //[1,2,3]
 console.log(arr2); //[1,2,3]
 
-//Here, we can see that the values of arr1 and values of arr2 is same because those share a same memory location.
+//==>Here, we can see that the values of arr1 and values of arr2 is same because those share a same memory location.
 
 //==>2. (===) meaning in case of primitive and non primitive
 //==> In primitive: Check whether value is same:
