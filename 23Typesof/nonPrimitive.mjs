@@ -1,4 +1,4 @@
-//=>Non primitive Data Types: Array,object,Set,null
+//=>Non primitive Data Types: Array,object,Set
 
 console.log(typeof null); //object
 
