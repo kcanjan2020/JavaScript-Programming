@@ -1,4 +1,4 @@
-//==> Primitive Data Type: number,BigInt,string,boolean,undefined,null.
+//==> Primitive Data Type: Number,BigInt,String,Boolean,undefined.
 let num = 12346;
 console.log(typeof num); //number
 let num2 = 573453537n;

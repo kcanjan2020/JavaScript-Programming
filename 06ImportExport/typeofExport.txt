@@ -1,0 +1,8 @@
+1.Export by name
+    => A file has many export by name
+    =>Need curly braces while import
+    =>while import you should use same name which is used while export
+2. Export by default
+=> A file has only one export default
+=>does not need curly braces while import
+=>while import you can use any name

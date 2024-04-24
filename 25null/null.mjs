@@ -1,4 +1,4 @@
-//=> null =>: null is used to empty variable.
+//=> null =>: null is used to make empty variable.
 //=> Never assign variable by undefined value.
 
 let a;

@@ -7,7 +7,7 @@ otherwise "F" */
 let obtainMarks = 75;
 let grade;
 if (obtainMarks >= 90) {
-  grade = "A";
+  grade= "A";
 } else if (obtainMarks >= 80) {
   grade = "B";
 } else if (obtainMarks >= 70) {

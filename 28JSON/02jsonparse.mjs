@@ -1,4 +1,4 @@
-//JavaScript function JSON.parse() to convert text into a JavaScript object:
+//JavaScript function JSON.parse() is used to convert text into a JavaScript object:
 
 let list = [1, 2, 3, 4, 5];
 console.log(list); // [1,2,3,4,5]
