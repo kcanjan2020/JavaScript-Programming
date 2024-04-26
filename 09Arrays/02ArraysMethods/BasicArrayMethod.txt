@@ -1,0 +1,21 @@
+Array length
+Array toString()
+Array at()
+Array join()
+Array push()
+Array pop()
+Array shift()
+Array unshift()
+Array delete()
+Array concat()
+Array copyWithin()
+Array flat()
+Array splice()
+Array slice()
+Array toSpliced()
+
+
+[note:
+=>All method return something but push,pop shift and unshift change original array
+
+=>while reverse and short method do both return and change original array]
